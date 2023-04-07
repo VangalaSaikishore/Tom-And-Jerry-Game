@@ -1,0 +1,101 @@
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+}
+
+
+h2 {
+    position: absolute;
+    top: 61%;
+    right:19.05%;
+    text-align:right;
+    
+    font-size: 15px;
+    font-family: 'Carter One', cursive;
+    background-color:#FF7F50;
+}
+
+#message {
+    font-size: 27px;
+    position: absolute;
+    top: 80%;
+    right: 2.5%;
+    font-family: 'Carter One', cursive;
+    text-align: right;
+}
+
+#winMessage {
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    right: 5.5%;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+
+#guess {
+    letter-spacing: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    width: 360px;
+    position: absolute;
+    top: 70%;
+    right: 2.5%;
+    background-color:#DAA520;
+}
+
+#hint {
+    font-size: 20px;
+    position: absolute;
+    top: 43%;
+    right: 1.05%;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    color:#00008B;
+}
+
+table {
+    display: block;
+    background-color:teal;
+    color:black;
+    position: absolute;
+    top: 82%;
+    right: 1.05%;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px; 
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.disable-td {
+    background-color: darkgrey;
+    cursor: default;
+    color:yellow;
+}
+
+#img {
+     position: absolute;
+     top: 0.89%;
+     left: 77%;
+}
+
+#newgame {
+    position: absolute;
+    top: 61%;
+    right:2.05%;
+    line-height: 15px;
+    width: 78px;
+    height: 30px;
+    text-align: middle;
+    cursor: pointer;
+    font-family: 'Carter One', cursive;
+    background-color:#228B22;
+}
